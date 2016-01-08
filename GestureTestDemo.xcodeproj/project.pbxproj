@@ -13,6 +13,7 @@
 		5618F7AE1C3F4642008F1563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5618F7AC1C3F4642008F1563 /* Main.storyboard */; };
 		5618F7B01C3F4642008F1563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5618F7AF1C3F4642008F1563 /* Assets.xcassets */; };
 		5618F7B31C3F4642008F1563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5618F7B11C3F4642008F1563 /* LaunchScreen.storyboard */; };
+		5618F7BC1C3F4B6A008F1563 /* HappyGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5618F7BB1C3F4B6A008F1563 /* HappyGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5618F7AF1C3F4642008F1563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5618F7B21C3F4642008F1563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5618F7B41C3F4642008F1563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5618F7BA1C3F4B6A008F1563 /* HappyGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyGestureRecognizer.h; sourceTree = "<group>"; };
+		5618F7BB1C3F4B6A008F1563 /* HappyGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		5618F7A21C3F4642008F1563 /* GestureTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5618F7BA1C3F4B6A008F1563 /* HappyGestureRecognizer.h */,
+				5618F7BB1C3F4B6A008F1563 /* HappyGestureRecognizer.m */,
 				5618F7A61C3F4642008F1563 /* AppDelegate.h */,
 				5618F7A71C3F4642008F1563 /* AppDelegate.m */,
 				5618F7A91C3F4642008F1563 /* ViewController.h */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5618F7BC1C3F4B6A008F1563 /* HappyGestureRecognizer.m in Sources */,
 				5618F7AB1C3F4642008F1563 /* ViewController.m in Sources */,
 				5618F7A81C3F4642008F1563 /* AppDelegate.m in Sources */,
 				5618F7A51C3F4642008F1563 /* main.m in Sources */,
@@ -263,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GestureTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ten-step.GestureTestDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GestureTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ten-step.GestureTestDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
